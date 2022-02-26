@@ -1,0 +1,53 @@
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 130px;
+    letter-spacing: 2px;
+    color:violet;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color:thistle;
+    text-align: center;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    width: 700px;
+}
+
+/*Flexbox for containers*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .inner-header1 {
+    height:10vh;
+    width:100%;
+    margin: 0;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+
+.inner-header2 {
+    height:10vh;
+    width:100%;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.content {
+    position:relative;
+    text-align:center;
+  }
