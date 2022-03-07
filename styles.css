@@ -1,29 +1,30 @@
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 110px;
-    color:#C20879;
-    text-align: center;
+    color: white;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 10vh;
     margin-bottom: -0.1vh;
+    margin-left: 3vw;
     line-height: 1em;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
-    color:#C20879;
-    text-align: center;
+    color:white;
     font-weight: lighter;
-    margin-top: 2px;
+    margin-top: 4px;
+    margin-bottom: -.4em;
+    margin-left: 3vw;
 }
 
 h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    color:thistle;
-    text-align: center;
+    color:#C20879;
     font-weight: lighter;
+    margin-left: 3vw;
 }
 
 h4 {
@@ -41,7 +42,7 @@ h4 {
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: left;
     letter-spacing: 0.5px;
     font-size: 22px;
@@ -73,7 +74,7 @@ html, body {
 
   .inner-header1 {
     display: block;
-    height:auto;
+    height: 65vh;
     width:100%;
     margin-left: auto;
     margin-right: auto;
