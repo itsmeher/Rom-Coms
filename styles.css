@@ -1,27 +1,66 @@
 h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 130px;
-    letter-spacing: 2px;
-    color:violet;
+    font-family: 'Poppins', sans-serif;
+    font-size: 110px;
+    color:#C20879;
     text-align: center;
     font-weight: bold;
-    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: -0.1vh;
+    line-height: 1em;
 }
 
 h2 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color:#C20879;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 2px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     color:thistle;
     text-align: center;
     font-weight: lighter;
 }
 
+h4 {
+    display: block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: #C20879;
+    width: 700px;
+    line-height: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 p {
-    font-family: 'PT Serif', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
     letter-spacing: 0.5px;
-    font-size: 20px;
+    font-size: 22px;
     width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 /*Flexbox for containers*/
@@ -33,21 +72,76 @@ p {
   }
 
   .inner-header1 {
-    height:10vh;
+    display: block;
+    height:auto;
     width:100%;
-    margin: 0;
-    padding-top: 130px;
-    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    background-color: black;
+    background-size: cover;
 }
 
-.inner-header2 {
-    height:10vh;
-    width:100%;
-    margin: 0;
-    padding-bottom: 15px;
-}
-
-.content {
+.prose {
     position:relative;
     text-align:center;
   }
+
+.img-bg {
+    height: min-content;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+}
+
+.video-box {
+    height: min-content;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.friesmovies {
+    max-width: 700px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    min-height: min-content;
+}
+/* Next & previous buttons */
+.prev, .next {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    background-color: thistle;
+    color:#C20879;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 2px 2px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 2px 2px 2px 2px;
+  }
+
+  .button2 {
+      height: min-content;
+  }
+
+  .photo {
+	max-width: 600px;
+	width: 100%;
+}
+
+.flourish-embed {
+    text-align: center;
+}
